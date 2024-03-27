@@ -5,7 +5,7 @@ import pickle, joblib
 
 # Load the saved model 
 model = pickle.load(open('lr.pkl', 'rb'))
-ct1 = joblib.load('processed.joblib')
+ct1 = joblib.load('job.joblib')
 
 
 def predict(data):
